@@ -15,7 +15,6 @@ app.use("/exp", expDataRoutes);
 const port=process.env.PORT || 5006
 
 mongoose.set('strictQuery', false);
-
 mongoose
     .connect(
         'mongodb+srv://firesafety:123aes456@cluster0.gxvnnwa.mongodb.net/firesafety?retryWrites=true&w=majority'
